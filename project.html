@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .nav-item:hover{
+            background-color: #cfcfcf;
+        }
+        .navbar{
+            background-color: #035718;
+        }
+        .nav-item{
+            color: black;
+        }
+        .title{
+            background-color: #035718;
+            color: black;
+            margin: 20px auto;
+            padding: 15px;
+            border-radius: 5px;
+            width: fit-content;
+        }
+        .navbar-brand:hover{
+            background-color: rgba(50, 50, 50, 0.5)
+        }
+        #desc{
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        
+        .profile-card {
+            display: flex;
+            align-items: center;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-image-container {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 20px;
+            background-color: #e0e0e0; 
+        }
+
+        .profile-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-info {
+            text-align: left;
+        }
+
+        .info-label {
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        
+        .quarter-section {
+            background-color: #e9ecef;
+            border-radius: 8px;
+            margin: 15px auto;
+            width: 80%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .quarter-summary {
+            padding: 15px;
+            cursor: pointer;
+            font-weight: bold;
+            color: #035718; 
+        }
+
+        .quarter-summary u {
+            text-decoration: none; 
+        }
+
+        .quarter-content {
+            padding: 15px;
+            text-align: center; 
+            border-top: 1px solid #ced4da;
+        }
+
+        .quarter-image {
+            max-width: 100%; 
+            height: auto;
+            margin-bottom: 10px; 
+            border-radius: 5px; 
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); 
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://storage.googleapis.com/oa_disk001/obgreenhills/65/school_logo/1691567065-3230.jpg " alt="MRT logo" width="50">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="color: rgb(221, 221, 221);">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page2.html" style="color: rgb(221, 221, 221);">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page3.html" target="_self" style="color: rgb(221, 221, 221);">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="rateus.html" style="color: rgb(221, 221, 221);">Rate us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<br><br>
+
+<div class="container">
+    <div class="title">
+        <h2>Project Portfolio</h2>
+    </div>
+    <p id="desc" class="lead">This online portfolio contains all of my ICT Projects spanning from the First Quarter to the Fourth Quarter for the AY 2024-2025. The topics for these projects will include Basic HTML, Cascading Style Sheet, Bootstrap, and Javascript.</p>
+
+    <section class="profile-card">
+        <div class="profile-image-container">
+            <img src="https://media.discordapp.net/attachments/1295775333257318424/1371895495617806417/image.png?ex=6824ccbe&is=68237b3e&hm=22b6fabbe267789d2f56ac53868037563fcd6d9ae17ca21483e93bf861630d66&=&format=webp&quality=lossless&width=134&height=119" alt="Student Profile" class="profile-image">
+        </div>
+        <div class="profile-info">
+            <p><span class="info-label">Name:</span> Jarix Johnuay S. Zales</p>
+            <p><span class="info-label">Interests</span> Volleyball, Music, Games</p>
+            <p><span class="info-label">Plans for the future:</span> I plan to be a doctor, specifically a gastroenterologist. For college I plan to go to Ateneo or La Salle.</p>
+        </div>
+    </section>
+
+    <section class="quarter-section">
+        <details id="quarter1Details">
+            <summary class="quarter-summary">
+                <u>Quarter 1</u>
+            </summary>
+            <div class="quarter-content">
+                <img src="https://media.discordapp.net/attachments/1295775333257318424/1371900641458262066/image.png?ex=6824d189&is=68238009&hm=9127bc67dda6510f74889980810ed08b42a6b154b56e64a89505943678f1b112&=&format=webp&quality=lossless&width=1712&height=870" alt="Quarter 1 Project 1" class="quarter-image">
+                </div>
+        </details>
+    </section>
+
+    <section class="quarter-section">
+        <details id="quarter2Details">
+            <summary class="quarter-summary">
+                <u>Quarter 2</u>
+            </summary>
+            <div class="quarter-content">
+                <img src="https://media.discordapp.net/attachments/1295775333257318424/1371900826246971552/image.png?ex=6824d1b5&is=68238035&hm=32370d2c809c793aa4696c045f0e7b69092d5f18643032f96d6c58ff015587f0&=&format=webp&quality=lossless&width=1712&height=874" alt="Quarter 2 Project 1" class="quarter-image">
+                </div>
+        </details>
+    </section>
+
+    <section class="quarter-section">
+        <details id="quarter3Details">
+            <summary class="quarter-summary">
+                <u>Quarter 3</u>
+            </summary>
+            <div class="quarter-content">
+                <img src="https://media.discordapp.net/attachments/1295775333257318424/1371900972858605688/image.png?ex=6824d1d8&is=68238058&hm=9f509388e36aa95dbf8bfffc425164a8e8779429a75cbb75f15b11a82197b553&=&format=webp&quality=lossless&width=1727&height=754" alt="Quarter 3 Project 1" class="quarter-image">
+                </div>
+        </details>
+    </section>
+
+    <section class="quarter-section">
+        <details id="quarter4Details">
+            <summary class="quarter-summary">
+                <u>Quarter 4</u>
+            </summary>
+            <div class="quarter-content">
+                <img src="https://media.discordapp.net/attachments/1295775333257318424/1371901395426607206/image.png?ex=6824d23d&is=682380bd&hm=ad16dd01f5e872793795d9f3946656fb9f594066534d8ac960d549293cfcc388&=&format=webp&quality=lossless&width=1727&height=880" alt="Quarter 4 Project 1" class="quarter-image">
+                </div>
+        </details>
+    </section>
+</div>
+
+
+</body>
+</html>
